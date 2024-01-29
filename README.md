@@ -1,5 +1,6 @@
 Node Printer Prebuild
-============
+=====================
+
 Native bind printers on POSIX and Windows OS from Node.js, electron and node-webkit.
 
 [![npm version](https://badge.fury.io/js/@thiagoelg%2Fnode-printer.svg)](https://www.npmjs.com/package/@thiagoelg/node-printer) [![Prebuild Binaries and Publish](https://github.com/thiagoelg/node-printer/actions/workflows/prebuild-main.yml/badge.svg)](https://github.com/thiagoelg/node-printer/actions/workflows/prebuild-main.yml)
@@ -10,13 +11,15 @@ Native bind printers on POSIX and Windows OS from Node.js, electron and node-web
 
 If you have a problem, ask question to [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tojocky/node-printer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or find/create a new [Github issue](https://github.com/thiagoelg/node-printer/issues)
 
-___
+---
+
 ### **Below is the original README**
-___
+
+---
+
 ### Reason:
 
 I was involved in a project where I need to print from Node.JS. This is the reason why I created this project and I want to share my code with others.
-
 
 ### Features:
 
@@ -36,10 +39,10 @@ I was involved in a project where I need to print from Node.JS. This is the reas
 * `setJob(printerName, jobId, command)` to send a command to a job (e.g. `'CANCEL'` to cancel the job);
 * `getSupportedJobCommands()` to get supported job commands for setJob() depends on OS. `'CANCEL'` command is supported from all OS-es.
 
-
 ### How to install:
+
 ```
-npm install @thiagoelg/node-printer
+npm install @stevenCharles1325/node-printer
 ```
 
 ### How to use:
@@ -52,10 +55,10 @@ See [examples](https://github.com/thiagoelg/node-printer/tree/main/examples)
 
 ### Contibutors:
 
-* Thiago Lugli, @thiagoelg
-* Eko Eryanto, @ekoeryanto
+* Steven Charles Palabyab, @stevenCharles1325
 
 Feel free to download, test and propose new futures
 
 ### License:
+
  [The MIT License (MIT)](http://opensource.org/licenses/MIT)
