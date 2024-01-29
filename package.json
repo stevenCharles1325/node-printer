@@ -1,15 +1,11 @@
 {
-  "name": "@stevenCharles1325/node-printer",
+  "name": "@lemonbread/node-printer",
   "description": "Node.js printer bindings",
   "version": "0.6.2",
   "homepage": "https://github.com/stevenCharles1325/node-printer",
-  "author": {
-    "name": "Ion Lupascu",
-    "url": "http://program-support.co.uk/",
-    "email": "ionlupascu@gmail.com"
-  },
+  "author": "Ion Lupascu <ionlupascu@gmail.com> (http://program-support.co.uk/)",
   "contributors": [
-    "stevenCharles1325  <stevencharles1325@gmail.com>"
+    "stevenCharles1325 <stevencharles1325@gmail.com>"
   ],
   "repository": {
     "type": "git",
@@ -49,5 +45,19 @@
     "nan": "^2.18.0",
     "prebuild-install": "^7.0.1"
   },
-  "types": "types/index.d.ts"
+  "types": "types/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/stevenCharles1325/node-printer/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "node-printer",
+    "printer",
+    "electron-printer"
+  ],
+  "license": "ISC"
 }
