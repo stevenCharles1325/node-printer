@@ -9,19 +9,18 @@
     "email": "ionlupascu@gmail.com"
   },
   "contributors": [
-    "Thiago Lugli <thiagoelg@gmail.com>",
-    "Eko Eryanto <ekoeryanto@gmail.com>"
+    "stevenCharles1325  <stevencharles1325@gmail.com>"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/thiagoelg/node-printer.git"
   },
   "devDependencies": {
-    "nodeunit": "*",
-    "prebuild": "^11.0.3",
-    "prebuild-ci": "^4.0.0",
     "node-abi": "^3.8.0",
-    "patch-package": "^6.4.7"
+    "nodeunit": "*",
+    "patch-package": "^6.4.7",
+    "prebuild": "^11.0.3",
+    "prebuild-ci": "^4.0.0"
   },
   "engines": {
     "node": ">= 4.0.0"
@@ -47,7 +46,7 @@
   ],
   "main": "./lib/printer",
   "dependencies": {
-    "nan": "^2.15.0",
+    "nan": "^2.18.0",
     "prebuild-install": "^7.0.1"
   },
   "types": "types/index.d.ts"
